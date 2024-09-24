@@ -18,7 +18,7 @@ function calc() {
     var output = document.getElementById("output");
     var result = 0;
 
-    output.innerHTML = `</br> Caro <strong> ${PName} </strong> <br> <br>`;
+    output.innerHTML = `</br> Caro <strong> ${PName} </strong> <br> `;
     output.innerHTML += "Seguem os dados do seu pedido: <br> <br> "
     output.innerHTML += "o seu pedido é: <br> <br>";
 

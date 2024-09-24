@@ -193,7 +193,7 @@
       </div>
 
       <!-- forms-->
-      <div class="container bg-light.bg-gradient shadow-lg mt-4 text-black text-start">
+      <div class="container bg-light.bg-gradient shadow-lg mt-5 text-black text-start p-2 ">
         <h3 class="text-center"> Dados pessoais</h3>
         <form>
           <div class="mb-3">
@@ -209,8 +209,24 @@
         </form>
 
       </div>
-      <button onclick="calc()">Calcular</button>
-      <div class="output text-dark" id="output"></div>
+      <button type="button" class="btn btn-primary mt-3 col-5" onclick="calc()" data-bs-toggle="modal" data-bs-target="#exampleModal">calcular</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+         <div class="output text-dark text-start" id="output"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
     </div>
   </div>
   </div>
